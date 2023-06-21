@@ -3,9 +3,14 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
 
+import { WarningAlertComponent } from './warningAlart/warningAlert.component';
+import { SucessComponent } from './sucess/sucess.component';
+
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent, 
+    WarningAlertComponent,
+    SucessComponent
   ],
   imports: [
     BrowserModule
